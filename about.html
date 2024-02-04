@@ -15,15 +15,59 @@
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>About Nokukhanya Tshabangu</title>
+    <link rel="stylesheet" href="/style.css" />
+    <title>About me - Nokukhanya Tshabangu</title>
+    <meta
+      name="description"
+      content="About Nokukhanya Tshabangu, a front-end developer based in South Africa"
+    />
   </head>
   <body>
-    <a href="index.html" class="homepage-link">Back to homepage</a>
-    <h1>About me</h1>
-    <h3>Front-end developer from Potchefstroom, South Africa</h3>
-    <div class="about-paragraphs">
-      <p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="/" title="Homepage">Nokukhanya Tshabangu</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/" tilte="Homepage"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                href="/about.html"
+                title="About Nokukhanya Tshabangu"
+                >About me</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/about.html#contact"
+                title="Contact Nokukhanya Tshabangu"
+                >Contact me</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <h1 class="text-center">About me</h1>
+    <h3 class="text-center">Front-end developer from South Africa, Potchefstroom</h3>
+    <div class="about-paragraphs text-center">
+     <p>
         I am Nokukhanya Tshabangu, I am currently 21 years old. I was born and
         raised in South Africa. I did my Web-developer certificate with SheCodes
         Foundation and also currently a student at North West University,
@@ -66,21 +110,31 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-4">
-          <img src="image/yoga.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="image/yoga.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Yoga project"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="image/weather.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="image\weather.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Weather project"
+          />
         </div>
         <div class="col-sm-4">
-          <img src="image\yogurt.png" class="img-fluid p-2 shadow rounded" />
+          <img
+            src="image/yogurt.png"
+            class="img-fluid p-2 mb-4 shadow rounded"
+            alt="Yogurt project"
+          />
         </div>
       </div>
     </div>
-    <div id="contact">
-      <h2>📮 Contact me</h2>
-      <a href="mailto:petranokukhanya@gmail.com" class="email-link">
+    <div id="contact" class="mt-5">
+      <h2 class="text-center">📮 Contact me</h2>
+      <a href="petranokukhanya@gmail.com" class="email-link">
         petranokukhanya@gmail.com
-      </a>
-    </div>
   </body>
 </html>
